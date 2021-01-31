@@ -21,17 +21,17 @@ export default {
     return {
       items: [
         {
-          img: '/utils/carnavales.jpg',
+          img: 'utils/carnavales.jpg',
           description: 'Ven y da el grito de carnaval aqui entre tragos y música',
           title: 'Carnaval'
         },
         {
-          img: '/utils/party.jpg',
+          img: 'utils/party.jpg',
           description: 'En nuestras instalaciones nunca la pasaras mal',
           title: 'Pool party'
         },
         {
-          img: '/utils/lugar.jpg',
+          img: 'utils/lugar.jpg',
           description: 'Reserva tu full day y creenos que volveras',
           title: 'Full day'
         }

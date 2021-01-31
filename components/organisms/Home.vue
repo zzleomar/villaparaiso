@@ -4,7 +4,7 @@
       <a-row class="villa__home--section">
         <a-col>
           <logo />
-          <img class="villa__home--branding" src="/utils/branding.jpg">
+          <img class="villa__home--branding" src="utils/branding.jpg">
         </a-col>
         <a-col class="villa__home--row">
           <h4 class="villa__home--h4">

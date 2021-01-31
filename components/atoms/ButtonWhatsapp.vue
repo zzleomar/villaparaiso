@@ -1,6 +1,6 @@
 <template>
   <div class="villa__buttonWhatsapp">
-    <img src="/icons/whatsapp.png" @click="handleClick">
+    <img src="icons/whatsapp.png" @click="handleClick">
   </div>
 </template>
 

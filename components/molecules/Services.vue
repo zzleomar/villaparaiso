@@ -21,17 +21,17 @@ export default {
     return {
       items: [
         {
-          img: '/utils/coctel.jpg',
+          img: 'utils/coctel.jpg',
           description: 'Todo tipo de cocteles',
           title: 'Coctel'
         },
         {
-          img: '/utils/comida.jpg',
+          img: 'utils/comida.jpg',
           description: 'Comida preparada por los mejores chef de la costa',
           title: 'Buffet'
         },
         {
-          img: '/utils/piscina.jpg',
+          img: 'utils/piscina.jpg',
           description: 'Piscina con vista infinita al mar',
           title: 'Piscina'
         }
