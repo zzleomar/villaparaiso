@@ -16,6 +16,11 @@
             &--row {
                 margin-top: 5em;
             }
+            &--section {
+                &.footer {
+                    border: none;
+                }
+            }
         }
         &__services,
         &__events {
@@ -30,6 +35,17 @@
             padding-top: 1em;
             & img {
                 max-width: 10em;
+            }
+        }
+        &__footer {
+            &--h4 {
+                margin-top: 1.5em;
+                font-size: 1.2rem;
+            }
+            &--p {
+                font-size: 1rem;
+                margin-top: 1.5em;
+                padding: 0em 5em;
             }
         }
     }

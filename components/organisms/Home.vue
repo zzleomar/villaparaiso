@@ -29,6 +29,9 @@
     <div class="villa__home--section">
       <Events />
     </div>
+    <div class="villa__home--section footer">
+      <Footer />
+    </div>
   </div>
 </template>
 
@@ -38,13 +41,15 @@ import Logo from '@/components/atoms/Logo.vue'
 import ButtonWhatsapp from '@/components/atoms/ButtonWhatsapp.vue'
 import Services from '@/components/molecules/Services.vue'
 import Events from '@/components/molecules/Events.vue'
+import Footer from '@/components/molecules/Footer.vue'
 export default {
   components: {
     ButtonPrimary,
     ButtonWhatsapp,
     Logo,
     Services,
-    Events
+    Events,
+    Footer
   },
   methods: {
     handleClick () {
