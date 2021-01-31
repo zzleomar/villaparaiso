@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a-card v-if="item !== null" class="villa__services--item">
+    <a-card v-if="item !== null" class="villa__events--item">
       <img
         slot="cover"
         alt="example"

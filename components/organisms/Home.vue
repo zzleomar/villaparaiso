@@ -1,7 +1,7 @@
 <template>
   <div class="villa__home">
     <div class="villa__home--secction">
-      <a-row class="villa__home--banner">
+      <a-row class="villa__home--section">
         <a-col>
           <logo />
           <img class="villa__home--branding" src="/utils/branding.jpg">
@@ -22,9 +22,13 @@
           <ButtonWhatsapp />
         </a-col>
       </a-row>
-      <hr>
     </div>
-    <Services />
+    <div class="villa__home--section">
+      <Services />
+    </div>
+    <div class="villa__home--section">
+      <Events />
+    </div>
   </div>
 </template>
 
@@ -33,12 +37,14 @@ import ButtonPrimary from '@/components/atoms/ButtonPrimary.vue'
 import Logo from '@/components/atoms/Logo.vue'
 import ButtonWhatsapp from '@/components/atoms/ButtonWhatsapp.vue'
 import Services from '@/components/molecules/Services.vue'
+import Events from '@/components/molecules/Events.vue'
 export default {
   components: {
     ButtonPrimary,
     ButtonWhatsapp,
     Logo,
-    Services
+    Services,
+    Events
   },
   methods: {
     handleClick () {

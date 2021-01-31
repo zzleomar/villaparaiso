@@ -6,4 +6,12 @@
         margin-bottom: 2em;
         position: relative;
     }
+    &--item {
+        border: none;
+        & img {
+            width: 12em;
+            margin: auto;
+            border-radius: 10em;
+        }
+    }
 }

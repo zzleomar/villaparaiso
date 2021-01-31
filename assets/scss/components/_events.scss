@@ -1,0 +1,22 @@
+.villa__events {
+    &--h4 {
+        font-family: 'Gotham-Book';
+        font-weight: 600;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        position: relative;
+    }
+    &--item {
+        & img {
+            min-height: 18em;
+        }
+        & .ant-card-meta-title {
+            text-align: left;
+            font-weight: 700;
+        }
+        & .ant-card-meta-description {
+            text-align: left;
+            text-justify: auto;
+        }
+    }
+}
