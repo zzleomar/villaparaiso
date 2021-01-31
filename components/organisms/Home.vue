@@ -53,7 +53,7 @@ export default {
   },
   methods: {
     handleClick () {
-      window.open('wa.link/izreng', '_blank')
+      window.open('https://www.wa.link/izreng', '_blank')
     }
   }
 }
