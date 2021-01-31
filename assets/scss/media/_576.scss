@@ -1,2 +1,29 @@
 @media only screen and (min-width: 576px) {
+  .villa {
+    &__home {
+      &--branding {
+        max-height: 35em;
+      }
+      &--h1 {
+        font-size: 3rem;
+      }
+      &--h4 {
+        font-size: 1.1rem;
+      }
+      &--p {
+        width: 50%;
+        text-align: center;
+        margin: 1em auto;
+      }
+      &--row {
+        margin-top: 6em;
+      }
+    }
+    &__logo {
+      padding-top: 5em;
+      & img {
+        max-width: 6em;
+      }
+    }
+  }
 }

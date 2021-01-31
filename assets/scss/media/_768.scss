@@ -1,2 +1,12 @@
 @media only screen and (min-width: 768px) {
+  .villa {
+    &__buttonWhatsapp img {
+      right: 5em;
+    }
+    &__home {
+      &--row {
+        margin-top: 12em;
+      }
+    }
+  }
 }

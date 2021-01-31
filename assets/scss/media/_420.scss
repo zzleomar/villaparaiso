@@ -1,5 +1,46 @@
-@media only screen and (min-width: 420px) {
+@media only screen and (min-width: 380px) {
+  .villa {
+    &__home {
+      &--branding {
+        max-height: 50em;
+      }
+      &--h1 {
+        font-size: 2rem;
+      }
+      &--h4 {
+        font-size: 0.8rem;
+      }
+      &--p {
+        margin: 2em;
+      }
+      &--row {
+        margin-top: 5em;
+      }
+    }
+    &__buttonWhatsapp img {
+      right: 2em;
+    }
+    &__logo {
+      padding-top: 1em;
+      & img {
+        max-width: 10em;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 300px) {
+  .villa {
+    &__home {
+      &--branding {
+        max-height: 55em;
+      }
+      &--row {
+        margin-top: 2em;
+      }
+    }
+    &__logo img {
+      max-width: 10em;
+    }
+  }
 }

@@ -1,0 +1,30 @@
+.villa__home {
+  min-height: calc(100vh - 115px);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  &--h1 {
+    font-family: 'Gotham-Medium';
+    margin-top: 0px;
+  }
+  &--h4 {
+    font-family: 'Gotham-Book';
+    font-weight: 600;
+    margin-bottom: 0px;
+    position: relative;
+    top: 5px;
+  }
+  &--branding {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  &--banner {
+    padding-bottom: 3em;
+    border-bottom: 1px solid $gray;
+  }
+}
