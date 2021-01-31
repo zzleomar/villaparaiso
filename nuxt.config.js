@@ -3,6 +3,10 @@ export default {
   ssr: false,
 
   // Global page headers: https://go.nuxtjs.dev/config-head
+  target: 'static',
+  router: {
+    base: '/villaparaiso/'
+  },
   head: {
     title: 'villaparaisodemo',
     htmlAttrs: {
